@@ -6,6 +6,11 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
+  resolve: {
+    extensions: [
+      "", ".js", ".jsx",
+    ],
+  },
   module: {
     loaders: [
       {
